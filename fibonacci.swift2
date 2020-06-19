@@ -4,5 +4,8 @@ func fibonacci(_ n: Int) -> Int {
     } else if n == 1 {
         return 1
     }
+    
+    // do something here
+    
     return fibonacci(n-1) + fibonacci(n-2)
 }
